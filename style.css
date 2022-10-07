@@ -1,3 +1,192 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+
+body {
+    font-family: 'Karma', serif;
+	font-size: 15px;
+	line-height: 1.75;
+	margin:0 auto;}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;}
+
+.menu {
+    position: absolute;
+    width: 901px;
+    height: 45px;
+    left: 200px;
+    top: 0px;
+
+    background: #93E1D8;
+}
+
+.paticka {
+    background-color: #263067;
+	position:relative;
+    top: 50px;
+    left:-100px;
+    width: 900px;
+	height: 50px;
+	display: inline-block;
+}
+
+.zahlavi {
+	position: absolute;
+    width: 900px;
+    height: 228px;
+    left: 200px;
+    top: 58px;
+
+    background: url(pic/pozadi_pokus2.jpg);
+
+}
+
+
+
+.polozky {
+	position:absolute;
+	top:15px;
+	left:0;
+	
+}
+
+.patickapolozka {
+	top:15px;
+	text-align: center;	
+	color: white;
+	padding:10px;
+
+}
+
+.mapa {
+    float:left;
+    margin-right:30px;}
+
+.text {
+	margin: 420px 300px;
+	width:700px;
+}
+
+.nazev {
+	position: absolute;
+    width: 580px;
+    height: 159px;
+    left: 380px;
+    top: 20px;
+
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.datum {
+    position: absolute;
+    width: 580px;
+    height: 59px;
+    left: 380px;
+    top: 140px;
+
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #861657;
+}
+
+.logo {
+    position: absolute;
+    width: 97px;
+    height: 35px;
+    left: 30px;
+    top: 30px;
+
+}
+
+.foto {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 30px;
+    top: 145px;
+	border-radius: 50%;
+}
+
+.jmeno {
+    position: absolute;
+    width: 276px;
+    height: 50px;
+    left: 200px;
+    top: 230px;
+
+    font-family: 'Karma';
+    font-style: normal;
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #263067 ;
+
+    color: #263067;
+}
+
+.jmenoFB {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 220px;
+    top: 285px;
+    
+    font-family: 'Karma';
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    
+    color: #2abdac;
+}
+
+h2 {
+    margin-top:40px;
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #263067;}
+
+section {
+    margin-top: 50px;
+}
+
+.fotogalerie {
+    margin:2px;
+    float: inline-end;
+    width: 200px;
+}
+
+.fotogalerie_vyska {
+    margin:2px;
+    float: inline-end;
+    width: 150px;
+}
+
+.podbarvene {
+    padding: 10px 30px 30px 30px;
+    background: #DDFFF7;
+}
+
+.odsazene {
+    padding: 0 30px 0 30px;
+}
