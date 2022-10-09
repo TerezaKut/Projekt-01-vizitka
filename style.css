@@ -172,14 +172,18 @@ section {
 
 .fotogalerie {
     margin:2px;
-    float: inline-end;
+    float: inline-start;
     width: 200px;
 }
 
 .fotogalerie_vyska {
     margin:2px;
-    float: inline-end;
+    float: inline-start;
     width: 150px;
+}
+
+.fotogalerie_popis {
+    margin-top: 10px;
 }
 
 .podbarvene {
